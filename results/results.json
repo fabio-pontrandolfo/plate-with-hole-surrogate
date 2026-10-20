@@ -1,0 +1,29 @@
+{
+  "GaussianProcess": {
+    "r2": 0.9989367837843927,
+    "mae_mpa": 1.873349551084977,
+    "mean_err_pct": 1.2099952284505826,
+    "max_err_pct": 3.813469577497624
+  },
+  "RandomForest": {
+    "r2": 0.9230560195391081,
+    "mae_mpa": 16.09798054312228,
+    "mean_err_pct": 11.327494692125736,
+    "max_err_pct": 39.235872153000464
+  },
+  "MLP": {
+    "r2": 0.8695790925838816,
+    "mae_mpa": 21.443505245696983,
+    "mean_err_pct": 15.011108127966677,
+    "max_err_pct": 55.65100677791626
+  },
+  "extrapolation": {
+    "gp_in_mean_err_pct": 1.2099952284505826,
+    "gp_out_mean_err_pct": 7.433180640900762,
+    "rf_out_mean_err_pct": 41.23591809075587,
+    "gp_in_mean_std_pct": 1.4371756007469056,
+    "gp_out_mean_std_pct": 2.6594598579794746,
+    "gp_95pct_coverage_in": 0.92,
+    "gp_95pct_coverage_out": 0.3
+  }
+}
